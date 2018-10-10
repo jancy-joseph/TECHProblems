@@ -24,6 +24,28 @@ namespace TECH
             //}
             //// Output: 3 5 12 11 4   Index found  1:4
 
+            string str = "A man, a plan, a canal: Panama";
+            string str1 = "race a car";
+            var result = ValidPalindrome.FindValidPalindrome(str);
+            if (result)
+            {
+                Console.WriteLine("\n String : \"{0}\"  is a Valid Paindrome \n", str);
+            }
+            else
+            {
+                Console.WriteLine(" String :\"{0}\" is Not a Valid Palindrome \n", str);
+            }
+            var result1 = ValidPalindrome.FindValidPalindrome(str1);
+            if (result1)
+            {
+                Console.WriteLine(" String : \"{0}\" is a Valid Paindrome \n", str1);
+            }
+            else
+            {
+                Console.WriteLine(" String : \"{0}\" is Not Valid Palindrome \n", str1);
+            }
+
+
             Console.ReadKey();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
