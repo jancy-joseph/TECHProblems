@@ -26,7 +26,9 @@ namespace TECH
 
             string str = "A man, a plan, a canal: Panama";
             string str1 = "race a car";
-            var result = ValidPalindrome.FindValidPalindrome(str);
+
+            var result = ValidPalindrome.FindPalindromeUsingSwap(str);
+           // var result = ValidPalindrome.FindValidPalindrome(str);
             if (result)
             {
                 Console.WriteLine("\n String : \"{0}\"  is a Valid Paindrome \n", str);
@@ -35,7 +37,8 @@ namespace TECH
             {
                 Console.WriteLine(" String :\"{0}\" is Not a Valid Palindrome \n", str);
             }
-            var result1 = ValidPalindrome.FindValidPalindrome(str1);
+            var result1 = ValidPalindrome.FindPalindromeUsingSwap(str1);
+           // var result1 = ValidPalindrome.FindValidPalindrome(str1);
             if (result1)
             {
                 Console.WriteLine(" String : \"{0}\" is a Valid Paindrome \n", str1);
