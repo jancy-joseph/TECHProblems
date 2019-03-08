@@ -138,7 +138,7 @@ namespace TECH
 
                 }
                 if (char.IsLetter(ch))
-                {
+                {//Changing to lowercase for string compare later
                     strippedstr[i] = Char.ToLower(ch);
                 }
                 j = i;

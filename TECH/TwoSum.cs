@@ -12,7 +12,7 @@ namespace TECH
 //Example:
 //Given nums = [2, 7, 11, 15], target = 9,
 //Because nums[0] + nums[1] = 2 + 7 = 9,
-//return [0, 1].
+//return [0, 1]s;.
 //Time Complexity: O(n)
     public static class TwoSum
     {
@@ -39,7 +39,8 @@ namespace TECH
                         }
 
                     }
-                }
+
+                                    }
                 Hashmap.Add(index, difference);
             }
             Console.WriteLine(" No number in integer array matches the target value: {0}", target);
